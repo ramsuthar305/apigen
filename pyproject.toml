@@ -11,6 +11,7 @@ authors = [
 description = "A Django API toolkit for response utilities, exceptions, middleware, and alert handlers - Open source version of Skillspe's Hephaestus package"
 readme = "README.md"
 requires-python = ">=3.7"
+license = { text = "MIT" }
 
 classifiers = [
     "Programming Language :: Python :: 3",
