@@ -1,11 +1,21 @@
-Skillspe Private Project License
+MIT License
 
-This software is the property of Skillspe and is licensed to you for your personal use only. You may not distribute, modify, or sell this software without the express written permission of Skillspe.
+Copyright (c) 2025 Ram Suthar
 
-If you are a Skillspe developer, you may use this software to develop your own applications. However, you must not use this software for any commercial purposes without the express written permission of Skillspe.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-If you violate any of the terms of this license, your license to use this software will be terminated immediately.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Copyright © 2023 Skillspe, Inc. All rights reserved.
-
-This license allows Skillspe to control who has access to the project and to prevent unauthorized use of the project. It also allows Skillspe to protect its intellectual property rights.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
