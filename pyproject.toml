@@ -1,43 +1,26 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "apigen"
-version = "1.0.5"
-authors = [
-  { name="Ram Suthar", email="ramsuthar305@gmail.com" },
-]
-description = "A Django API toolkit for response utilities, exceptions, middleware, and alert handlers - Open source version of Skillspe's Hephaestus package"
+version = "0.0.1"
+description = "A Django API toolkit for response utilities, exceptions, middleware, and alert handlers."
 readme = "README.md"
-requires-python = ">=3.7"
 license = { text = "MIT" }
-
-[tool.setuptools]
-license-files = ["LICENSE"]
-
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Framework :: Django",
-    "Intended Audience :: Developers",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Internet :: WWW/HTTP",
-]
-keywords = [
-    "django",
-    "api",
-    "response",
-    "exceptions",
-    "middleware",
-    "alerts",
-    "toolkit",
-    "utilities",
-    "hephaestus",
+authors = [{ name = "Ram Sutahr", email = "ramsuthar305@gmail.com" }]
+requires-python = ">=3.7"
+dependencies = [
+    "Django>=3.2"
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/ramsuthar305/apigen"
-"Bug Tracker" = "https://github.com/ramsuthar305/apigen/issues"
-"Source Code" = "https://github.com/ramsuthar305/apigen"
+Homepage = "https://github.com/ramsuthar305/apigen"
+Issues = "https://github.com/ramsuthar305/apigen/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+license-files = ["LICENSE"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
