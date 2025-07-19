@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "A Django API toolkit for response utilities, exceptions, middleware, and alert handlers."
 readme = "README.md"
 license = {text = "MIT"}
+license-files = ["LICENSE"]
 authors = [
   {name = "Ram Suthar", email = "ramsuthar305@gmail.com"}
 ]
