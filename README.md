@@ -2,7 +2,7 @@
 
 A Django API toolkit for response utilities, exceptions, middleware, and alert handlers.
 
-_Open source version of Skillspe's Hephaestus package_
+_Open source version of Skillspe's stupa package_
 
 ## Features
 

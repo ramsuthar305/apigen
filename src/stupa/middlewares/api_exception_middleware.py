@@ -1,8 +1,8 @@
 import logging
 
-from hephaestus.exceptions import ApiError, SkillspeApiException, ResponseEnum
+from stupa.exceptions import ApiError, SkillspeApiException, ResponseEnum
 
-from hephaestus.commons import Response
+from stupa.commons import Response
 
 logger = logging.getLogger(__name__)
 

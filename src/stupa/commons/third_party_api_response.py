@@ -1,15 +1,16 @@
 import json
-from hephaestus.exceptions import SkillspeApiException
-from hephaestus.exceptions import ApiResponses, ResponseEnum
+from stupa.exceptions import SkillspeApiException
+from stupa.exceptions import ApiResponses, ResponseEnum
+
 
 class ThirdPartyApiResponse:
     def __init__(self, response):
         self.response = response
-        self.status_code : int = None
-        self.data : dict = None
-        self.error : str = None
-        self.success : bool = None
-        self.error_exception : ResponseEnum = None
+        self.status_code: int = None
+        self.data: dict = None
+        self.error: str = None
+        self.success: bool = None
+        self.error_exception: ResponseEnum = None
         self.parse_response()
 
     def parse_response(self):
@@ -20,7 +21,7 @@ class ThirdPartyApiResponse:
 
         if self.success:
             self.data = self.response.json()
-    
+
     def raise_exception(self):
         raise SkillspeApiException(self.error_exception)
 
@@ -32,7 +33,7 @@ class ThirdPartyApiResponse:
 
     def get_error(self):
         return self.error if not self.is_successful() else None
-    
+
     def to_dict(self):
         return {'data': self.data, 'error': self.error, 'success': self.success} if self.is_successful() else None
 
