@@ -1,4 +1,4 @@
-# Apigen
+# stupa
 
 A Django API toolkit for response utilities, exceptions, middleware, and alert handlers.
 
@@ -14,7 +14,7 @@ _Open source version of Skillspe's Hephaestus package_
 ## Installation
 
 ```bash
-pip install apigen
+pip install stupa
 ```
 
 ## Requirements
@@ -28,5 +28,5 @@ MIT License
 
 ## Links
 
-- [GitHub Repository](https://github.com/ramsuthar305/apigen)
-- [Issue Tracker](https://github.com/ramsuthar305/apigen/issues)
+- [GitHub Repository](https://github.com/ramsuthar305/stupa)
+- [Issue Tracker](https://github.com/ramsuthar305/stupa/issues)

@@ -1,5 +1,5 @@
 """
-APIGen - A Django API toolkit for response utilities, exceptions, middleware, and alert handlers.
+stupa - A Django API toolkit for response utilities, exceptions, middleware, and alert handlers.
 """
 
 __version__ = "0.1.0"

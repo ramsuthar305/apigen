@@ -3,7 +3,7 @@ requires = ["hatchling==1.26.3", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
-name = "apigen"
+name = "stupa"
 version = "0.1.0"
 description = "A Django API toolkit for response utilities, exceptions, middleware, and alert handlers."
 readme = "README.md"
@@ -22,4 +22,4 @@ classifiers = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/apigen"]
+packages = ["src/stupa"]
