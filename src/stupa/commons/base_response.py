@@ -1,5 +1,7 @@
 from django.http import JsonResponse
 from rest_framework import serializers
+from typing import Union
+
 
 from .paginator import PaginationData
 from stupa.exceptions import ResponseEnum
@@ -8,12 +10,15 @@ from stupa.exceptions import ResponseEnum
 class SkillsPeResonse:
     def __new__(self,
                 response_type: ResponseEnum,
-                data: dict | serializers.Serializer | serializers.ModelSerializer = None,
+                data: Union[dict, serializers.Serializer,
+                            serializers.ModelSerializer] = None,
                 pagination_data: PaginationData = None,
                 ) -> JsonResponse:
 
-        response_data = {"message": response_type.message,
-                         "response_code": response_type.response_code}
+        response_data = {
+            "message": response_type.message,
+            "response_code": response_type.response_code
+        }
         if data:
             response_data["data"] = data.data if hasattr(
                 data, 'data') else data
